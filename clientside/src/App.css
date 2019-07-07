@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.footer{
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  z-index: 13;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.navbar.navbar-expand-md {
+position: fixed;
+width: 100%;
+z-index: 2;
+}
+
+.text-warning{
+  font-size: 2.8em;
+  color:white !important;
+  background:rgba(0,0,100,0.25);
+}
+
+.carouselImg{
+  width:100%;
+  max-width: 800px;
+  height: 400px;
+}
+
+.homepageCarousel{
+  width: 801px;
+}
+
+.dark{
+  background-color: #efefef;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
